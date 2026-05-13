@@ -11,7 +11,7 @@
 						${pkgs.greetd.tuigreet}/bin/tuigreet \
 						--time \
 						--remember \
-						--cmd Hyprland
+						--cmd start-hyprland
 					'';
 				};
 			};
