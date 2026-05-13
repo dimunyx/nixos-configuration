@@ -1,7 +1,7 @@
 { config, lib, pkgs, pkgs-unstable, ... }:
 {
 	imports = [
-		./root.nix
-		./botnaru.nix
+		./root/root.nix
+		./botnaru/botnaru.nix
 	];
 }

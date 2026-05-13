@@ -2,6 +2,7 @@
 {
 	boot = {
 		initrd = {
+			verbose = false;
 			availableKernelModules = [
 				"nvme"
 				"xhci_pci"
