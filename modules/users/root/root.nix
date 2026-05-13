@@ -3,7 +3,7 @@
 	users = {
 		users = {
 			root = {
-				hashedPasswordFile = "./password.txt";
+				hashedPasswordFile = ./password;
 				shell = pkgs-unstable.fish;
 			};
 		};
