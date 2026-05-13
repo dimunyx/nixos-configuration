@@ -3,7 +3,7 @@
 	boot = {
 		plymouth = {
 			enable = true;
-			logo = "./icons/NixOS(original).png";
+			logo = ./icons/NixOS.png;
 		};
 	};
 }
