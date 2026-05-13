@@ -8,7 +8,7 @@
 					"wheel"
 					"networkmanager"
 				];
-				hashedPasswordFile = ./password;
+				hashedPasswordFile = toString ./password;
 				shell = pkgs-unstable.fish;
 			};
 		};
