@@ -1,7 +1,8 @@
 { config, lib, pkgs, pkgs-unstable, ... }:
 {
 	imports = [
-		./configuration/main.nix
+		./graphics.nix
 		./bluetooth.nix
+		./configuration/main.nix
 	];
 }

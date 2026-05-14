@@ -9,9 +9,12 @@
 		grub2-themes = {
 			url = "github:vinceliuice/grub2-themes";
 		};
+		hyprland = {
+			url = "github:hyprwm/Hyprland/v0.55.1";
+		};
 	};
 
-	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, ... }:
+	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, ... }:
 	{
 		nixosConfigurations = {
 			nixos-btw = nixpkgs.lib.nixosSystem {
@@ -19,6 +22,7 @@
 
 				specialArgs = {
 					pkgs-unstable = nixpkgs-unstable.legacyPackages.x86_64-linux;
+					inherit inputs;
 				};
 
 				modules = [
