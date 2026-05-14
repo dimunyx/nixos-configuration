@@ -37,10 +37,10 @@
 			gnome-disk-utility
 			hyprpicker
 			mpv
-			jq
 			gpu-screen-recorder
 			libreoffice
 			opencode
+			jq
 		]);
 	};
 }
