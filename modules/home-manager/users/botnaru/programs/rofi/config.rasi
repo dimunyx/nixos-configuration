@@ -1,0 +1,91 @@
+configuration {
+	modes: "drun,run,filebrowser";
+	font: "CaskaydiaCove Nerd Font Bold 12";
+	show-icons: true;
+	icon-theme: "Papirus";
+	hover-select: true;
+	sidebar-mode: false;
+	display-drun: " ";
+	display-run: " ";
+	display-filebrowser: " ";
+}
+
+window {
+	location: northwest;
+	width: 480;
+	border: 6px;
+	border-color: rgba(0,0,255,1);
+	border-radius: 0;
+	background-color: rgba(0,0,255,0.25);
+}
+
+mainbox {
+	padding: 12px;
+}
+
+inputbar {
+	border: 6px;
+	border-color: rgba(0,0,255,1);
+	border-radius: 0;
+	padding: 8px 16px;
+	spacing: 8px;
+	children: [ prompt, entry ];
+}
+
+prompt {
+	text-color: rgba(0,0,255,1);
+}
+
+entry {
+	placeholder: "Искать ...";
+	placeholder-color: rgba(0,0,255,0.5);
+	text-color: rgba(0,0,255,1);
+}
+
+message {
+	margin: 12px 0 0;
+}
+
+textbox {
+	padding: 8px 24px;
+}
+
+listview {
+	margin: 12px 0 0;
+	padding: 6px;
+	lines: 10;
+	columns: 1;
+	fixed-height: false;
+	scrollbar: false;
+	border: 6px;
+	border-color: rgba(0,0,255,1);
+	border-radius: 0;
+}
+
+element {
+	padding: 10px 16px;
+	spacing: 8px;
+	border-radius: 0;
+}
+
+element selected normal, element selected active {
+	background-color: transparent;
+	text-color: rgba(0,0,255,1);
+	border: 6px;
+	border-color: rgba(0,0,255,1);
+}
+
+element normal normal, element alternate normal, element active normal {
+	background-color: transparent;
+	text-color: rgba(0,0,255,0.5);
+
+}
+
+element-icon {
+	size: 1em;
+	vertical-align: 0.5;
+}
+
+element-text {
+    	text-color: inherit;
+}
