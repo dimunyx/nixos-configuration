@@ -11,14 +11,14 @@
 					bar_width = 5;
 					bar_spacing = 0;
 					sensitivity = 80;
-					mode = normal;
+					mode = "normal";
 					framerate = 60;
 				};
 				input = {
-					method = pipewire;
+					method = "pipewire";
 				};
 				output = {
-					method = ncurses;
+					method = "ncurses";
 				};
 				color = {
 					foreground = "#0000FF";
