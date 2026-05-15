@@ -40,7 +40,6 @@
 			gpu-screen-recorder
 			libreoffice
 			opencode
-			jq
 		]);
 	};
 }
