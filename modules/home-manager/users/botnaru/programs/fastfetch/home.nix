@@ -24,7 +24,7 @@
 				};
 			};
 			modules = [
-				"title";
+				"title"
 				{
 					type = "os";
 					key = "OS";
