@@ -21,7 +21,7 @@
 					method = "ncurses";
 				};
 				color = {
-					foreground = "#0000FF";
+					foreground = "'#0000FF'";
 					gradient = 0;
 				};
 				smoothing = {
