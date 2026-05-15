@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
 	imports = [
-		./programs/home.nix
+		./cava/home.nix
 	];
 }
