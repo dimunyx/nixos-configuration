@@ -62,7 +62,7 @@
 					};
 				};
 			};
-			style = {
+			style = ''
 				* {
 					font-family: "CaskaydiaCove Nerd Font";
 					font-size: 16px;
@@ -166,7 +166,7 @@
 				.notification-row .notification-background .notification .notification-default-action:hover {
 					background: rgba(0,0,255,0.3);
 				}
-			};
+			'';
 		};
 	};
 }
