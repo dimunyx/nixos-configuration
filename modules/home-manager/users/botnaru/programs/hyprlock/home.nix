@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
 	programs = {
-		hyprland = {
+		hyprlock = {
 			enable = true;
 			settings = {
 				general = {
@@ -10,9 +10,11 @@
 				animations = {
 					enabled = true;
 					bezier = "linear, 1, 1, 0, 0";
-					animation = "fadeIn, 1, 5, linear";
-					animation = "fadeOut, 1, 5, linear";
-					animation = "inputFieldDots, 1, 2, linear";
+					animation = [
+						"fadeIn, 1, 5, linear"
+						"fadeOut, 1, 5, linear"
+						"inputFieldDots, 1, 2, linear"
+					];
 				};
 				background = {
 					monitor = "";
@@ -38,36 +40,38 @@
 					halign = "center";
 					valign = "bottom";
 				};
-				label = {
-					monitor = "";
-					text = "$TIME";
-					font_size = 90;
-					font_family = "CaskaydiaCove Nerd Font";
-					halign = "center";
-					valign = "top";
-					color = "rgba(0,0,255,1)";
-				};
-				label = {
-					monitor = "";
-					text = "cmd[update:1000] echo '$(date +'%d.%m.%Y')'";
-					font_size = 24;
-					font_family = "CaskaydiaCove Nerd Font";
-					position = "0, -150";
-					halign = "center";
-					valign = "top";
-					color = "rgba(0,0,255,1)";
-				};
-				label = {
-					monitor = "";
-					text = "$LAYOUT[us,ru]";
-					font_size = 24;
-					font_family = "CaskaydiaCove Nerd Font";
-					on_click = "hyprctl switchxkblayout all next";
-					position = "230, 15";
-					halign = "center";
-					valign = "bottom";
-					color = "rgba(0,0,255,1)";
-				};
+				label = [
+					{
+						monitor = "";
+						text = "$TIME";
+						font_size = 90;
+						font_family = "CaskaydiaCove Nerd Font";
+						halign = "center";
+						valign = "top";
+						color = "rgba(0,0,255,1)";
+					}
+					{
+						monitor = "";
+						text = "cmd[update:1000] echo '$(date +'%d.%m.%Y')'";
+						font_size = 24;
+						font_family = "CaskaydiaCove Nerd Font";
+						position = "0, -150";
+						halign = "center";
+						valign = "top";
+						color = "rgba(0,0,255,1)";
+					}
+					{
+						monitor = "";
+						text = "$LAYOUT[us,ru]";
+						font_size = 24;
+						font_family = "CaskaydiaCove Nerd Font";
+						on_click = "hyprctl switchxkblayout all next";
+						position = "230, 15";
+						halign = "center";
+						valign = "bottom";
+						color = "rgba(0,0,255,1)";
+					}
+				];
 			};
 		};
 	};
