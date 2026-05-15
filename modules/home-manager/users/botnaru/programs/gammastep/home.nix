@@ -3,12 +3,14 @@
 	services = {
 		gammastep = {
 			enable = true;
-			tray = true;
+			temperature = {
+				day = 6500;
+				night = 3500;
+			};
 			settings = {
 				general = {
-					dawn-time = "07:30";
-					dusk-time = "20:00";
-					temp-night = 3500;
+					dawn-time = "07:00-07:30";
+					dusk-time = "19:30-20:00";
 					brightness-day = "1.0";
 					brightness-night = "1.0";
 					fade = 1;
