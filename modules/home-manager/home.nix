@@ -8,9 +8,5 @@
 		username = "botnaru";
 		homeDirectory = "/home/botnaru";
 		stateVersion = "25.11";
-		packages = with pkgs; [
-			btop
-			pfetch
-		];
 	};
 }
