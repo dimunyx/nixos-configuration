@@ -1,18 +1,16 @@
+{ pkgs, ... }:
 {
-	config,
-	lib,
-	pkgs,
-	pkgs-unstable,
-	inputs,
-	...
-}:
-{
-	home-manager = {
-		extraSpecialArgs = {
-			inherit inputs;
-		};
-		users = {
-			"botnaru" = import ./botnaru/home.nix;
-		};
+	imports = [
+		./users/botnaru/home.nix
+	];
+
+	home = {
+		username = "botnaru";
+		homeDirectory = "/home/botnaru";
+		stateVersion = "25.11";
+		packages = with pkgs; [
+			btop
+			pfetch
+		];
 	};
 }

@@ -36,7 +36,16 @@
 				modules = [
 					./configuration.nix
 					grub2-themes.nixosModules.default
-					inputs.home-manager.nixosModules.default
+					home-manager.nixosModules.home-manager
+					{
+						home-manager = {
+							useGlobalPkgs = true;
+							useUserPackages = true;
+							users = {
+								botnaru = import ./modules/home-manager/home.nix;
+							};
+						};
+					}
 				];
 			};
 		};
