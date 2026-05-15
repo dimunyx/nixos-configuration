@@ -2,6 +2,7 @@
 {
 	imports = [
 		./cava/home.nix
+		./kitty/home.nix
 		./hyprlock/home.nix
 		./hyprpaper/home.nix
 		./fastfetch/home.nix
