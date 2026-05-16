@@ -41,6 +41,10 @@
 						home-manager = {
 							useGlobalPkgs = true;
 							useUserPackages = true;
+							extraSpecialArgs = {
+								pkgs-unstable = nixpkgs-unstable.legacyPackages.x86_64-linux;
+								inherit inputs;
+							};
 							users = {
 								botnaru = import ./modules/home-manager/home.nix;
 							};
