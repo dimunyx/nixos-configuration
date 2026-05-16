@@ -2,6 +2,7 @@
 {
 	programs = {
 		kitty = {
+			enable = true;
 			settings = {
 				font_family = "CaskaydiaCove Nerd Font";
 				font_size = 13;

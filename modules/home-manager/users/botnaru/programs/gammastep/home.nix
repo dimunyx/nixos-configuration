@@ -2,6 +2,7 @@
 {
 	services = {
 		gammastep = {
+			enable = true;
 			temperature = {
 				day = 6500;
 				night = 3500;
