@@ -10,7 +10,7 @@
 			url = "github:vinceliuice/grub2-themes";
 		};
 		hyprland = {
-			url = "github:hyprwm/Hyprland/v0.55.1";
+			url = "github:hyprwm/Hyprland/v0.55.2";
 		};
 		home-manager = {
 			url = "github:nix-community/home-manager/release-25.11";
