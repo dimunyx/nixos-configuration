@@ -20,9 +20,12 @@
 				};
 			};
 		};
+		nh = {
+      			url = "github:nix-community/nh";
+    		};
 	};
 
-	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, home-manager, ... }:
+	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, home-manager, nh, ... }:
 	{
 		nixosConfigurations = {
 			nixos-btw = nixpkgs.lib.nixosSystem {
