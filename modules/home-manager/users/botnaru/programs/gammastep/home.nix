@@ -1,8 +1,9 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
 	services = {
 		gammastep = {
 			enable = true;
+			package = pkgs-unstable.gammastep;
 			temperature = {
 				day = 6500;
 				night = 3500;

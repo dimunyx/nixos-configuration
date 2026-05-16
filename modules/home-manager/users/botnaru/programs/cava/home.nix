@@ -1,8 +1,9 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
 	programs = {
 		cava = {
 			enable = true;
+			package = pkgs-unstable.cava;
 			settings = {
 				general = {
 					autosens = 1;

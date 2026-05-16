@@ -1,8 +1,9 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
 	services = {
 		hyprpaper = {
 			enable = true;
+			package = pkgs-unstable.hyprpaper;
 			settings = {
 				wallpaper = {
 					monitor = "";

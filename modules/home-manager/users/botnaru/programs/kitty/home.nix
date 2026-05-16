@@ -1,8 +1,9 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
 	programs = {
 		kitty = {
 			enable = true;
+			package = pkgs-unstable.kitty;
 			settings = {
 				font_family = "CaskaydiaCove Nerd Font";
 				font_size = 13;
