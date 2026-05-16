@@ -35,12 +35,12 @@
 			libreoffice
 			opencode
 			rofi
-			hyprpaper
-			cava
-			gammastep
-			kitty
-			fastfetch
-			hyprlock
+		#	hyprpaper
+		#	cava
+		#	gammastep
+		#	kitty
+		#	fastfetch
+		#	hyprlock
 		]);
 	};
 }
