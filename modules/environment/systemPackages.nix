@@ -40,6 +40,7 @@
 			gammastep
 			kitty
 			fastfetch
+			hyprlock
 		]);
 	};
 }
