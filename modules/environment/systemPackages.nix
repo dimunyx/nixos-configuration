@@ -34,6 +34,12 @@
 			gpu-screen-recorder
 			libreoffice
 			opencode
+			rofi
+			hyprpaper
+			cava
+			gammastep
+			kitty
+			fastfetch
 		]);
 	};
 }
