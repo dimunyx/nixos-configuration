@@ -52,7 +52,9 @@
 					}
 					{
 						monitor = "";
-						text = "cmd[update:1000] echo '$(date +'%d.%m.%Y')'";
+						text = ''
+							cmd[update:60000] date +"%A, %d %B %Y"
+						'';
 						font_size = 24;
 						font_family = "CaskaydiaCove Nerd Font";
 						position = "0, -150";

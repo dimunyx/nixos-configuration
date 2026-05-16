@@ -6,7 +6,6 @@
 		./neovim.nix
 		./waybar.nix
 		./starship.nix
-		./hyprlock.nix
 		./hyprland.nix
 	];
 }

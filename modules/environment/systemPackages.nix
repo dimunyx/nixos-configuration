@@ -8,17 +8,12 @@
 			brightnessctl
 			playerctl
 		]) ++ (with pkgs-unstable; [
-			fastfetch
-			cava
 			cmatrix
 			cpufetch
 			nautilus
-			kitty
 			nwg-look
 			xdg-user-dirs
 			unzip
-			hyprpaper
-			rofi
 			hyprshutdown
 			swaynotificationcenter
 			libnotify
@@ -27,7 +22,6 @@
 			gnome-calculator
 			hyprsysteminfo
 			hyprland-qt-support
-			gammastep
 			gcc
 			wl-clipboard
 			cliphist
