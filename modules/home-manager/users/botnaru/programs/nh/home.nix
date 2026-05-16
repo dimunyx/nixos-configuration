@@ -4,7 +4,7 @@
 		nh = {
 			enable = true;
 			package = pkgs-unstable.nh;
-			flake = "/etc/nixos";
+			osFlake = "/etc/nixos";
 		};
 	};
 }
