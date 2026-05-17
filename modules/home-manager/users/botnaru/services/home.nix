@@ -1,7 +1,7 @@
 { pkgs, pkgs-unstable, ... }:
 {
 	imports = [
-		./programs/home.nix
-		./services/home.nix
+		./gammastep/home.nix
+		./hyprpaper/home.nix
 	];
 }

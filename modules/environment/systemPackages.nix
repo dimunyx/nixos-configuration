@@ -36,7 +36,6 @@
 			opencode
 			rofi
 			hyprpaper
-			yazi
 		]);
 	};
 }
