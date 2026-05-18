@@ -2,6 +2,7 @@
 {
 	boot = {
 		initrd = {
+			enable = true;
 			verbose = false;
 			availableKernelModules = [
 				"nvme"
@@ -12,6 +13,10 @@
 				"sdhci_pci"
 			];
 			kernelModules = [ ];
+			systemd = {
+				enable = true;
+				package = pkgs-unstable.systemd;
+			};
 		};
 	};
 }

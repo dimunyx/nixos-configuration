@@ -1,6 +1,6 @@
 { config, lib, pkgs, pkgs-unstable, ... }:
 {
 	boot = {
-		kernelPackages = pkgs.linuxPackages_xanmod_latest;
+		kernelPackages = pkgs-unstable.linuxPackages_xanmod_latest;
 	};
 }

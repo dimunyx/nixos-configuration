@@ -36,6 +36,7 @@
 			opencode
 			rofi
 			hyprpaper
+			theclicker
 		]);
 	};
 }
