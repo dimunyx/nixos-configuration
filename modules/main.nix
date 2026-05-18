@@ -7,7 +7,6 @@
 		./time/main.nix
 		./users/main.nix
 		./system/main.nix
-		./systemd/main.nix
 		./network/main.nix
 		./services/main.nix
 		./programs/main.nix

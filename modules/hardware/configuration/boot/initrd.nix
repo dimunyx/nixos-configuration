@@ -15,7 +15,6 @@
 			kernelModules = [ ];
 			systemd = {
 				enable = true;
-				package = pkgs-unstable.systemd;
 			};
 		};
 	};
