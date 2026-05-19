@@ -37,6 +37,10 @@
 			rofi
 			hyprpaper
 			theclicker
+			gammastep
+			kitty
+			cava
+			fastfetch
 		]);
 	};
 }

@@ -2,6 +2,5 @@
 {
 	imports = [
 		./programs/home.nix
-		./services/home.nix
 	];
 }
