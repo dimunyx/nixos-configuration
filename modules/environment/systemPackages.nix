@@ -41,7 +41,6 @@
 			kitty
 			cava
 			fastfetch
-			waydroid
 		]);
 	};
 }
