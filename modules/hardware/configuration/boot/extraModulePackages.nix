@@ -1,6 +1,8 @@
 { config, lib, pkgs, pkgs-unstable, ... }:
 {
 	boot = {
-		extraModulePackages = [ ];
+		extraModulePackages = with config.boot.kernelPackages; [
+			binder_linux
+		];
 	};
 }
