@@ -3,7 +3,7 @@
 	virtualisation = {
 		waydroid = {
 			enable = true;
-			package = pkgs.waydroid;
+			package = pkgs-unstable.waydroid;
 		};
 	};
 }

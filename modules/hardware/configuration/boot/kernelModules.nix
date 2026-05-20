@@ -3,7 +3,7 @@
 	boot = {
 		kernelModules = [
 			"kvm-amd"
-			"binder_linux"
+			"br_netfilter"
 		];
 	};
 }
