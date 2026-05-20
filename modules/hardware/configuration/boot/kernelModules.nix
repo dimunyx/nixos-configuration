@@ -3,6 +3,7 @@
 	boot = {
 		kernelModules = [
 			"kvm-amd"
+			"binder_linux"
 		];
 	};
 }
