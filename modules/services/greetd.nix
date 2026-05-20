@@ -10,7 +10,7 @@
 					command = ''
 						${pkgs.tuigreet}/bin/tuigreet \
 						--time \
-						--cmd start-hyprland
+						--remember 
 					'';
 				};
 			};
