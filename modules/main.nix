@@ -7,10 +7,10 @@
 		./time/main.nix
 		./users/main.nix
 		./system/main.nix
-		./network/main.nix
 		./services/main.nix
 		./programs/main.nix
 		./hardware/main.nix
+		./networking/main.nix
 		./environment/main.nix
 		./virtualisation/main.nix
 	];
