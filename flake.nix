@@ -36,6 +36,7 @@
   					config = {
 						allowUnfree = true;
 					};
+					inherit inputs;
 				};
 
 				modules = [
