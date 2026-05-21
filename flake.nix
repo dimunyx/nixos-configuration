@@ -31,9 +31,11 @@
 			nixos-btw = nixpkgs.lib.nixosSystem {
 				system = "x86_64-linux";
 
-				specialArgs = {
-					pkgs-unstable = nixpkgs-unstable.legacyPackages.x86_64-linux;
-					inherit inputs;
+				pkgs-unstable = import nixpkgs-unstable {
+  					system = "x86_64-linux";
+  					config = {
+						allowUnfree = true;
+					};
 				};
 
 				modules = [
