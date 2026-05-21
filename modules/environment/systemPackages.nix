@@ -41,6 +41,7 @@
 			kitty
 			cava
 			fastfetch
+			android-studio
 		]);
 	};
 }
