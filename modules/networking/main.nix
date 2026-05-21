@@ -3,6 +3,5 @@
 	imports = [
 		./hostname.nix
 		./firewall.nix
-		./networkmanager.nix
 	];
 }
