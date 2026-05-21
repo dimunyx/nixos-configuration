@@ -12,5 +12,6 @@
 		./programs/main.nix
 		./hardware/main.nix
 		./environment/main.nix
+		./virtualisation/main.nix
 	];
 }
