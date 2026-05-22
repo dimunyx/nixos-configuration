@@ -18,12 +18,9 @@
 		nh = {
       			url = "github:nix-community/nh";
     		};
-		nix-cachyos-kernel = {
-			url = "github:xddxdd/nix-cachyos-kernel/release";
-		};
 	};
 
-	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, home-manager, nh, nix-cachyos-kernel, ... }:
+	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, home-manager, nh, ... }:
 	{
 		nixosConfigurations = {
 			nixos-btw = nixpkgs.lib.nixosSystem {

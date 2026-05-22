@@ -1,4 +1,4 @@
-{ config, lib, grub2-themes, pkgs, pkgs-unstable, inputs, nix-cachyos-kernel, ... }:
+{ config, lib, grub2-themes, pkgs, pkgs-unstable, inputs, ... }:
 {
 	imports = [
 		./nix/main.nix

@@ -1,4 +1,4 @@
-{ config, lib, grub2-themes, pkgs, pkgs-unstable, nix-cachyos-kernel, ... }:
+{ config, lib, grub2-themes, pkgs, pkgs-unstable, ... }:
 {
 	imports = [
 		./efi.nix

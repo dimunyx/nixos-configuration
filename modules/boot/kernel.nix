@@ -1,4 +1,4 @@
-{ config, lib, pkgs, pkgs-unstable, nix-cachyos-kernel, ... }:
+{ config, lib, pkgs, pkgs-unstable,  ... }:
 {
 	boot = {
 		kernel = {
@@ -6,6 +6,6 @@
 				"net.ipv4.ip_forward" = 1;
 			};
 		};
-		kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-latest;
+		kernelPackages = pkgs.linuxPackages_xanmod_latest;
 	};
 }

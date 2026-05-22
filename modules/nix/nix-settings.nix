@@ -2,9 +2,6 @@
 {
 	nix = {
 		package = pkgs-unstable.nixVersions.latest;
-		overlays = [
-			nix-cachyos-kernel.overlays.pinned
-		];
 		settings = {
 			experimental-features = [
 				"nix-command"
