@@ -56,7 +56,6 @@
 						{
 							nixpkgs = {
 								overlays = [
-									nix-cachyos-kernel.overlays.default
 									nix-cachyos-kernel.overlays.pinned
 								];
 							};
