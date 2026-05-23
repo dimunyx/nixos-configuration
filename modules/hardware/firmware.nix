@@ -4,5 +4,6 @@
 		firmware = with pkgs-unstable; [
 			linux-firmware
 		];
+		enableRedistributableFirmware = true;
 	};
 }
