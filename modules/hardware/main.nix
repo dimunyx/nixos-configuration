@@ -2,6 +2,7 @@
 {
 	imports = [
 		./graphics.nix
+		./firmware.nix
 		./bluetooth.nix
 		./configuration/main.nix
 	];
