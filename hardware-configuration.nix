@@ -1,5 +1,4 @@
-{ config, lib, pkgs, pkgs-unstable, modulesPath, ... }:
-
+{ config, lib, pkgs, pkgs-unstable, modulesPath, nix-cachyos-kernel, ... }:
 {
   	imports = [
 		(modulesPath + "/installer/scan/not-detected.nix")

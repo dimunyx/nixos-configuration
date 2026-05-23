@@ -1,6 +1,6 @@
-{ config, lib, pkgs, pkgs-unstable,  ... }:
+{ config, lib, pkgs, pkgs-unstable, nix-cachyos-kernel, ... }:
 {
 	boot = {
-		kernelPackages = pkgs.linuxPackages_zen;
+		kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-latest;
 	};
 }
