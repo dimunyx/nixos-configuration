@@ -5,5 +5,6 @@
 		./kernelParams.nix
 		./kernelModules.nix
 		./extraModulePackages.nix
+		./blacklistedKernelModules.nix
 	];
 }
