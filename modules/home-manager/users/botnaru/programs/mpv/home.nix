@@ -3,7 +3,7 @@
 	programs = {
 		mpv = {
 			enable = true;
-			package = pkgs-unstable.mpv;
+			package = pkgs.mpv;
 			scripts = [
     				pkgs-unstable.mpvScripts.mpris
   			];

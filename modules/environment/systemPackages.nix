@@ -30,7 +30,6 @@
 			udiskie
 			gnome-disk-utility
 			hyprpicker
-			mpv
 			gpu-screen-recorder
 			libreoffice
 			opencode
