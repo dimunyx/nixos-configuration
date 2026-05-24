@@ -2,5 +2,6 @@
 {
 	imports = [
 		./nh/home.nix
+		./mpv/home.nix
 	];
 }
