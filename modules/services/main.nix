@@ -8,6 +8,6 @@
 		./udisks2.nix
 		./pipewire.nix
 		./libinput.nix
-		./power-profiles-daemon/main.nix
+		./power-profiles-daemon.nix
 	];
 }
