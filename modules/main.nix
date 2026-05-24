@@ -5,7 +5,6 @@
 		./boot/main.nix
 		./i18n/main.nix
 		./time/main.nix
-		./fonts/main.nix
 		./users/main.nix
 		./system/main.nix
 		./security/main.nix
