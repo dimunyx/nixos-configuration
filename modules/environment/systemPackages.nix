@@ -40,6 +40,7 @@
 			kitty
 			cava
 			fastfetch
+			tty-clock
 		]);
 	};
 }
