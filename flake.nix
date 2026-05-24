@@ -51,6 +51,16 @@
 							};
 						};
 					}
+					(
+						{ pkgs, ... }:
+						{
+							nixpkgs = {
+								overlays = [
+									nix-cachyos-kernel.overlays.pinned
+								];
+							};
+						}
+					)
 				];
 			};
 		};

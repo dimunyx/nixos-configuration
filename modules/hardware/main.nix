@@ -1,4 +1,4 @@
-{ config, lib, pkgs, pkgs-unstable, nix-cachyos-kernel, ... }:
+{ config, lib, pkgs, pkgs-unstable, ... }:
 {
 	imports = [
 		./graphics.nix
