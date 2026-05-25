@@ -9,7 +9,7 @@
 			enable = true;
 			theme = "default";
 			backgrounds = {
-				myBackground = "/etc/nixos/modules/programs/silentSDDM/wallpaper/NixOS.png";
+				myBackground = "${./wallpaper/NixOS.png}";
 			};
 			settings = {
 				"LoginScreen" = {
