@@ -7,15 +7,7 @@
 	programs = {
 		silentSDDM = {
 			enable = true;
-			theme = "default";
-			backgrounds = {
-				myBackground = "${./wallpaper/NixOS.png}";
-			};
-			settings = {
-				"LoginScreen" = {
-					background = "myBackground";
-				};
-			};
+			theme = "catppuccin-macchiato";
 		};
 	};
 }
