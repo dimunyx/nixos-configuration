@@ -2,9 +2,10 @@
 {
 	services = {
 		displayManager = {
+			defaultSession = "hyprland";
 			sddm = {
-				enable = true;
-				package = pkgs-unstable.kdePackages.sddm;
+				enable = false;
+				package = pkgs.kdePackages.sddm;
 				wayland = {
 					enable = true;
 				};
