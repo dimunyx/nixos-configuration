@@ -2,7 +2,7 @@
 {
 	imports = [
 		./gvfs.nix
-		./greetd.nix
+		./sddm.nix
 		./blueman.nix
 		./flatpak.nix
 		./udisks2.nix
