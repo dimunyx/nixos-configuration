@@ -2,8 +2,7 @@
 {
 	security = {
 		sudo = {
-			enable = true;
-			package = pkgs-unstable.sudo;
+			enable = false;
 		};
 	};
 }
