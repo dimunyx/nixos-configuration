@@ -8,6 +8,14 @@
 		silentSDDM = {
 			enable = true;
 			theme = "default";
+			backgrounds = {
+				myBackground = "/etc/nixos/modules/programs/silentSDDM/wallpaper/NixOS.png";
+			};
+			settings = {
+				"LoginScreen" = {
+					background = "myBackground";
+				};
+			};
 		};
 	};
 }

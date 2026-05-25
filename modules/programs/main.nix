@@ -8,6 +8,6 @@
 		./starship.nix
 		./hyprlock.nix
 		./hyprland.nix
-		./silentSDDM.nix
+		./silentSDDM/silentSDDM.nix
 	];
 }
