@@ -5,7 +5,7 @@
 			grub2-theme = {
 				enable = true;
 				footer = true;
-				theme = "whitesur";
+				theme = "vimix";
 				customResolution = "1920x1080";
 			};
 		};
