@@ -12,7 +12,9 @@
 				"sd_mod"
 				"sdhci_pci"
 			];
-			kernelModules = [ ];
+			kernelModules = [
+				"amdgpu"
+			];
 			systemd = {
 				enable = true;
 			};
