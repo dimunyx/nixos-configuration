@@ -21,12 +21,9 @@
 		nix-cachyos-kernel = {
 			url = "github:xddxdd/nix-cachyos-kernel";
 		};
-		silentSDDM = {
-			url = "github:uiriansan/SilentSDDM";
-		};
 	};
 
-	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, home-manager, nh, nix-cachyos-kernel, silentSDDM, ... }:
+	outputs = inputs@{ self, nixpkgs, nixpkgs-unstable, grub2-themes, hyprland, home-manager, nh, nix-cachyos-kernel, ... }:
 	{
 		nixosConfigurations = {
 			nixos-btw = nixpkgs.lib.nixosSystem {

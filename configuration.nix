@@ -1,4 +1,4 @@
-{ config, lib, grub2-themes, pkgs, pkgs-unstable, inputs, nix-cachyos-kernel, silentSDDM, ... }:
+{ config, lib, grub2-themes, pkgs, pkgs-unstable, inputs, nix-cachyos-kernel, ... }:
 
 {
 	imports = [
