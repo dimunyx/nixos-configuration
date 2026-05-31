@@ -1,7 +1,7 @@
 { config, lib, pkgs, pkgs-unstable, ... }:
 {
 	imports = [
-		./ly.nix
+		./sddm.nix
 		./gvfs.nix
 		./blueman.nix
 		./flatpak.nix

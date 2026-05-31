@@ -2,9 +2,12 @@
 {
 	services = {
 		displayManager = {
-			ly = {
+			sddm = {
 				enable = true;
-				package = pkgs-unstable.ly;
+				package = pkgs.kdePackages.sddm;
+				wayland = {
+					enable = true;
+				};
 			};
 		};
 	};
