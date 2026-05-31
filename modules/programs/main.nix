@@ -1,4 +1,4 @@
-{ config, lib, pkgs, pkgs-unstable, inputs, silentSDDM, ... }:
+{ config, lib, pkgs, pkgs-unstable, inputs, ... }:
 {
 	imports = [
 		./fish.nix
