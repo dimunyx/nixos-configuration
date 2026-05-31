@@ -1,6 +1,6 @@
 { config, lib, pkgs, pkgs-unstable, ... }:
 {
 	networking = {
-		hostName = "nixos-btw";
+		hostName = "dimunyx1";
 	};
 }

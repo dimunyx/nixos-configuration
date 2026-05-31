@@ -41,7 +41,6 @@
 			cava
 			fastfetch
 			tty-clock
-			bibata-cursors
 		]);
 	};
 }

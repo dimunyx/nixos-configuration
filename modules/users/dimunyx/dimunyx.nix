@@ -2,7 +2,7 @@
 {
 	users = {
 		users = {
-			botnaru = {
+			dimunyx = {
 				isNormalUser = true;
 				extraGroups = [
 					"wheel"
