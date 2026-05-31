@@ -2,6 +2,6 @@
 {
 	imports = [
 		./root/root.nix
-		./botnaru/dimunyx.nix
+		./dimunyx/dimunyx.nix
 	];
 }

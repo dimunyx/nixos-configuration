@@ -1,12 +1,12 @@
-{ pkgs, pkgs-unstable, ... }:
+{ config, lib, pkgs, pkgs-unstable, ... }:
 {
 	imports = [
-		./users/botnaru/home.nix
+		./users/dimunyx/home.nix
 	];
 
 	home = {
-		username = "botnaru";
-		homeDirectory = "/home/botnaru";
+		username = "dimunyx";
+		homeDirectory = "/home/dimunyx";
 		stateVersion = "26.05";
 	};
 }
